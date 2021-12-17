@@ -11338,7 +11338,6 @@ body {
 
 #site_main {
   background-color: #1C1C1C;
-  padding-bottom: 15px;
 }
 #site_main .container {
   position: relative;
@@ -11375,6 +11374,7 @@ body {
 #site_main .container .button {
   display: flex;
   justify-content: center;
+  padding-bottom: 15px;
 }
 #site_main .container .button button {
   background-color: #0282F9;
@@ -11385,4 +11385,31 @@ body {
   font-size: 11px;
   font-weight: bold;
   cursor: pointer;
+}
+#site_main .menu_dc {
+  background-color: #0282F9;
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 150px;
+}
+#site_main .menu_dc .container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#site_main .menu_dc .container .icon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#site_main .menu_dc .container .icon img {
+  width: 100%;
+  height: 60px;
+}
+#site_main .menu_dc .container .icon h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 15px;
+  margin-left: 10px;
 }
