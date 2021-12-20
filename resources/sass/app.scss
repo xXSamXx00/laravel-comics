@@ -255,6 +255,52 @@ body {
                 }
             }
         }
+        .details_comic {
+            background-color: #F6F6F6;
+            padding: 30px 0 0;
+            border-top: 1px solid lightgrey;
+            padding-bottom: 100px;
+            h4 {
+                margin-bottom: 30px;
+            }
+            .art_by,
+            .written_by {
+                display: flex;
+                justify-content: space-between;
+                border-top: 1px solid lightgrey;
+                p {
+                    font-weight: 500;
+                    &:last-child {
+                        font-size: 14px;
+                        color: #0282F9;
+                    }
+                }
+            }
+            .written_by {
+                border-bottom: 1px solid lightgrey;
+            }
+            .specs {
+                p {
+                    font-weight: 500;
+                }
+                .serie {
+                    border-top: 1px solid lightgrey;
+                    p {
+                        &:last-child {
+                            color: #0282F9;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+                .price {
+                    border-top: 1px solid lightgrey;
+                    border-bottom: 1px solid lightgrey;
+                }
+                .sale_date {
+                    border-bottom: 1px solid lightgrey;
+                }
+            }
+        }
     }
 }
 

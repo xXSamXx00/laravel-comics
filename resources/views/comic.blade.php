@@ -36,5 +36,51 @@
             </div>
         </div>
     </div>
+    <div class="details_comic">
+        <div class="container px_container">
+            <div class="row gx-5">
+                <div class="talent col-6">
+                    <h4>Talent</h4>
+                    <div class="art_by">
+                        <p class="col-3">Art by:</p>
+                        <p class="col-9">
+                            @foreach ($comic['artists'] as $artist)
+                            {{ $artist }}
+                            @if(!$loop->last)
+                            <span>,</span>
+                            @endif
+                            @endforeach
+                        </p>
+                    </div>
+                    <div class="written_by">
+                        <p class="col-3">Written by:</p>
+                        <p class="col-9">
+                            @foreach ($comic['writers'] as $writer)
+                            {{ $writer }}
+                            @if(!$loop->last)
+                            <span>,</span>
+                            @endif
+                            @endforeach
+                        </p>
+                    </div>
+                </div>
+                <div class="specs col-6">
+                    <h4>Specs</h4>
+                    <div class="serie d-flex">
+                        <p class="col-4">Series:</p>
+                        <p class="col-8">{{ $comic['series'] }}</p>
+                    </div>
+                    <div class="price d-flex">
+                        <p class="col-4">U.S. Price:</p>
+                        <p class="col-8">{{ $comic['price'] }}</p>
+                    </div>
+                    <div class="sale_date d-flex">
+                        <p class="col-4">On Sale Date:</p>
+                        <p class="col-8">{{ $comic['sale_date'] }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 @endsection

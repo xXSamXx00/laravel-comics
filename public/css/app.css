@@ -11505,6 +11505,50 @@ body {
   font-size: 16px;
   font-weight: bold;
 }
+#site_main .single_comic .details_comic {
+  background-color: #F6F6F6;
+  padding: 30px 0 0;
+  border-top: 1px solid lightgrey;
+  padding-bottom: 100px;
+}
+#site_main .single_comic .details_comic h4 {
+  margin-bottom: 30px;
+}
+#site_main .single_comic .details_comic .art_by,
+#site_main .single_comic .details_comic .written_by {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid lightgrey;
+}
+#site_main .single_comic .details_comic .art_by p,
+#site_main .single_comic .details_comic .written_by p {
+  font-weight: 500;
+}
+#site_main .single_comic .details_comic .art_by p:last-child,
+#site_main .single_comic .details_comic .written_by p:last-child {
+  font-size: 14px;
+  color: #0282F9;
+}
+#site_main .single_comic .details_comic .written_by {
+  border-bottom: 1px solid lightgrey;
+}
+#site_main .single_comic .details_comic .specs p {
+  font-weight: 500;
+}
+#site_main .single_comic .details_comic .specs .serie {
+  border-top: 1px solid lightgrey;
+}
+#site_main .single_comic .details_comic .specs .serie p:last-child {
+  color: #0282F9;
+  text-transform: uppercase;
+}
+#site_main .single_comic .details_comic .specs .price {
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
+#site_main .single_comic .details_comic .specs .sale_date {
+  border-bottom: 1px solid lightgrey;
+}
 
 #site_footer .link_footer {
   background: url(../img/dc-logo-bg.png) 80% no-repeat, url(../img/footer-bg.jpg) no-repeat;
