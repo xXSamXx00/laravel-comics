@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('page-title', 'Home')
+@section('page-title', 'Fans')
 
 @section('content')
 <h1>Fans page</h1>

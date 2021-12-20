@@ -11299,6 +11299,10 @@ body {
   color: #0282F9;
   border-bottom: 5px solid #0282F9;
 }
+#site_header .nav_menu .container ul li a.active {
+  color: #0282F9;
+  border-bottom: 5px solid #0282F9;
+}
 #site_header .nav_menu .container ul li a span {
   font-size: 15px;
   color: #0282F9;
@@ -11354,12 +11358,15 @@ body {
 #site_main .container .series {
   padding: 60px 10px 0;
 }
-#site_main .container .card_comics {
+#site_main .container a {
+  text-decoration: none;
+}
+#site_main .container a .card_comics {
   color: white;
   text-transform: uppercase;
   font-size: 11px;
 }
-#site_main .container .card_comics img {
+#site_main .container a .card_comics img {
   height: 180px;
   width: 180px;
   -o-object-fit: cover;
@@ -11367,7 +11374,7 @@ body {
   -o-object-position: top;
      object-position: top;
 }
-#site_main .container .card_comics h3 {
+#site_main .container a .card_comics h3 {
   font-size: 14px;
   margin: 10px 0 20px;
 }
