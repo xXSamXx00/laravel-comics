@@ -8,19 +8,21 @@
     <nav class="nav_menu">
         <div class="container">
             <div class="logo">
-                <img src="{{ asset('img/dc-logo.png') }}" alt="Logo DC">
+                <a href="{{ route('home') }}">
+                    <img src="{{ asset('img/dc-logo.png') }}" alt="Logo DC">
+                </a>
             </div>
             <ul>
-                <li><a href="#">Characters</a></li>
-                <li><a href="#">Comics</a></li>
-                <li><a href="#">Movies</a></li>
-                <li><a href="#">Tv</a></li>
-                <li><a href="#">Games</a></li>
-                <li><a href="#">Collectibles</a></li>
-                <li><a href="#">Videos</a></li>
-                <li><a href="#">Fans</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Shop <span>&dtrif;</span></a></li>
+                <li><a href="{{ route('characters') }}">Characters</a></li>
+                <li><a href="{{ route('comics') }}">Comics</a></li>
+                <li><a href="{{ route('movies') }}">Movies</a></li>
+                <li><a href="{{ route('tv') }}">Tv</a></li>
+                <li><a href="{{ route('games') }}">Games</a></li>
+                <li><a href="{{ route('collectibles') }}">Collectibles</a></li>
+                <li><a href="{{ route('videos') }}">Videos</a></li>
+                <li><a href="{{ route('fans') }}">Fans</a></li>
+                <li><a href="{{ route('news') }}">News</a></li>
+                <li><a href="{{ route('shop') }}">Shop <span>&dtrif;</span></a></li>
             </ul>
             <div class="search">
                 <input type="search" placeholder="Search">
