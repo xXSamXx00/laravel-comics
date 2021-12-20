@@ -11420,6 +11420,91 @@ body {
   font-size: 15px;
   margin-left: 10px;
 }
+#site_main .single_comic .px_container {
+  padding: 0 150px;
+}
+#site_main .single_comic .blue_bar {
+  height: 80px;
+  background-color: #0282F9;
+}
+#site_main .single_comic .blue_bar .container {
+  position: static;
+}
+#site_main .single_comic .blue_bar .container .card_comic {
+  bottom: 20px;
+  border: 1px solid white;
+}
+#site_main .single_comic .blue_bar .container .card_comic p {
+  color: white;
+  background-color: #00A9D9;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+#site_main .single_comic .blue_bar .container .card_comic p:first-child {
+  top: 0;
+  padding: 0 8px;
+}
+#site_main .single_comic .blue_bar .container .card_comic p:last-child {
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+#site_main .single_comic .info_comic {
+  background-color: white;
+  padding: 50px 0;
+}
+#site_main .single_comic .info_comic h2 {
+  position: static;
+  background-color: transparent;
+  color: #023F63;
+  padding: 0;
+  font-weight: bold;
+  margin: 20px 0;
+}
+#site_main .single_comic .info_comic .price {
+  display: flex;
+  background-color: #55BA59;
+  border-bottom: 1px solid gray;
+  margin-bottom: 18px;
+}
+#site_main .single_comic .info_comic .price .available {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  border-right: 1px solid gray;
+  width: 100%;
+}
+#site_main .single_comic .info_comic .price .available p {
+  color: #BAF980;
+  margin-bottom: 0;
+}
+#site_main .single_comic .info_comic .price .available p span {
+  color: white;
+  font-weight: 600;
+}
+#site_main .single_comic .info_comic .price .available p:last-child {
+  text-transform: uppercase;
+}
+#site_main .single_comic .info_comic .price button {
+  width: 35%;
+  border: none;
+  border-left: 1px solid gray;
+  background-color: #55BA59;
+  color: white;
+  font-weight: 600;
+}
+#site_main .single_comic .info_comic .description {
+  color: #656D6B;
+  font-weight: 500;
+}
+#site_main .single_comic .info_comic .advertisement h3 {
+  text-transform: uppercase;
+  color: #656D6B;
+  font-size: 16px;
+  font-weight: bold;
+}
 
 #site_footer .link_footer {
   background: url(../img/dc-logo-bg.png) 80% no-repeat, url(../img/footer-bg.jpg) no-repeat;
